@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Gotham SSm A, Gotham SSm B, sans-serif;
+  color: #4c494b;
+}
+
 .vh-min-100 {
   min-height: 100vh;
 }
@@ -31,7 +45,7 @@
 
 .login-window {
   width: 650px;
-  max-height: 600px;
+  max-height: 650px;
 }
 
 .bg-white {
@@ -84,8 +98,8 @@
   font-weight: 500 !important;
 }
 
-.margin-top-20 {
-  margin-top: 20px !important;
+.margin-top-40 {
+  margin-top: 40px !important;
 }
 
 .ui-h5 {
@@ -96,11 +110,11 @@
 .ui-sub-title {
   font-weight: 300;
   color: #b2afb1;
-  line-height: 1.5;
+  line-height: 0.2;
 }
 
 .margin-top-10 {
-  margin-top: 10px !important;
+  margin-top: 0px !important;
 }
 
 .ui-label {
@@ -109,12 +123,18 @@
   color: #736e72;
 }
 
+.ui-checkbox-label {
+  font-size: 1rem;
+  letter-spacing: -0.05em;
+  color: #736e72;
+}
+
 .margin-bottom-10 {
   margin-bottom: 10px !important;
 }
 
-.margin-top-30 {
-  margin-top: 30px !important;
+.margin-top-80 {
+  margin-top: 80px !important;
 }
 
 .ui-input {
@@ -251,13 +271,6 @@
   border: 1px solid transparent;
 }
 
-.checkbox-text {
-  // display: grid;
-  // align-items: center;
-  // justify-content: center;
-  display: inline-block;
-}
-
 .col-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -273,7 +286,7 @@
   }
 
   .ui-h5 {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .col-2 {
