@@ -5,16 +5,13 @@ const Login = () => {
     <div>
       <div>
         <div className='login-container vh-min-100 vw-100 col-3 grid-center-center overflow-hidden relative'>
-          <div className='col-start-2' style='justify-self: center'>
-            <div
-              className='login-window bg-white margin-bottom-20 padding-left-50 padding-right-50 padding-top-65 padding-bottom-65 standard-shadow border-1-off-white grid gap-20'
-              style='grid-template-rows: min-content auto min-content;'
-            >
+          <div className='col-start-2 justify-self-center'>
+            <div className='login-window bg-white margin-bottom-20 padding-left-50 padding-right-50 padding-top-65 padding-bottom-65 standard-shadow border-1-off-white grid gap-20 login-window-grid-template-rows'>
               <div>
                 <img
+                  className='img-height-40'
                   src='https://green.cdn.energy/branding/logo-r.svg'
                   alt='Logo of the company'
-                  style='height: 40px;'
                 />
                 <div>
                   <div>
